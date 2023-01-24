@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-family: Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.number{
+    font-family: Courier, monospace;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.delete {
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10%;
+    border:  1px solid;
+}
+
+.delete:hover {
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+}

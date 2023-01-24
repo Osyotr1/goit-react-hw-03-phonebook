@@ -1,0 +1,40 @@
+.form {
+    border: 5px solid black;
+    width: 300px;
+    height: 110px;
+
+}
+
+.label {
+    display: flex;
+    font-size: 20px;
+    font-family: 'sans-serif';
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+.inputName {
+    margin-left: 55px;
+}
+
+.inputNumber {
+    margin-left: 34px;
+}
+
+.submit {
+    margin-top: 15px;
+    margin-left: 210px;
+    font-family: 'sans-serif';
+    font-weight: 800;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: lightgreen;
+    color: white;
+    border-color: lightgreen;
+}
